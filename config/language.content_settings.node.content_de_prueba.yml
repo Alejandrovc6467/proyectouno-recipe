@@ -1,0 +1,11 @@
+uuid: afb57acf-0af6-4667-9334-efaa76548a56
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.content_de_prueba
+id: node.content_de_prueba
+target_entity_type_id: node
+target_bundle: content_de_prueba
+default_langcode: site_default
+language_alterable: false

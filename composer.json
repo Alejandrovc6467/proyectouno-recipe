@@ -1,0 +1,14 @@
+{
+    "name": "alejandrovc6467/proyectouno-recipe",
+    "description": "Drupal recipe: proyectouno-recipe",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": "^11"
+    },
+    "extra": {
+        "drupal-recipe": {
+            "path": "."
+        }
+    }
+}
