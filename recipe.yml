@@ -18,6 +18,9 @@ config:
     node:
       - node.type.content_de_prueba
       - node.settings
+      - core.entity_form_display.node.content_de_prueba.default
+      - core.entity_view_display.node.content_de_prueba.default
+      - core.entity_view_display.node.content_de_prueba.teaser
     field:
       - field.field.node.content_de_prueba.body
       - field.field.node.content_de_prueba.field_campodos
@@ -28,6 +31,8 @@ config:
       - field.storage.node.field_campouno
       - field.storage.node.body
       - field.settings
+    language:
+      - language.content_settings.node.content_de_prueba
     views:
       - views.view.frontpage
       - views.view.content
@@ -49,8 +54,3 @@ config:
       - image.style.thumbnail
       - image.style.wide
       - image.settings
-    core:
-      - core.entity_form_display.node.content_de_prueba.default
-      - core.entity_view_display.node.content_de_prueba.default
-      - core.entity_view_display.node.content_de_prueba.teaser
-      - language.content_settings.node.content_de_prueba
