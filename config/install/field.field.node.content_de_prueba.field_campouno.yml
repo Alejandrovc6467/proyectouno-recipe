@@ -1,0 +1,19 @@
+uuid: 5920306e-6e5c-4c7f-9bf4-e6472fe1bd0b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campouno
+    - node.type.content_de_prueba
+id: node.content_de_prueba.field_campouno
+field_name: field_campouno
+entity_type: node
+bundle: content_de_prueba
+label: campouno
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

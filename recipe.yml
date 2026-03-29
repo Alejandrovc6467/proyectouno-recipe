@@ -1,0 +1,21 @@
+name: 'Proyectouno Recipe'
+description: 'Adds content_de_prueba content type with its fields and sample content'
+type: Site
+
+install:
+  - node
+
+config:
+  import:
+    node:
+      - node.type.content_de_prueba
+      - core.entity_form_display.node.content_de_prueba.default
+      - core.entity_view_display.node.content_de_prueba.default
+      - core.entity_view_display.node.content_de_prueba.teaser
+      - field.field.node.content_de_prueba.body
+      - field.field.node.content_de_prueba.field_campodos
+      - field.field.node.content_de_prueba.field_campotres
+      - field.field.node.content_de_prueba.field_campouno
+      - field.storage.node.field_campodos
+      - field.storage.node.field_campotres
+      - field.storage.node.field_campouno

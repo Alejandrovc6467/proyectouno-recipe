@@ -1,0 +1,15 @@
+{
+    "name": "alejandrovc6467/proyectouno-recipe",
+    "description": "Adds content_de_prueba content type with its fields and sample content",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Alejandro",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "drupal/core": "^11"
+    }
+}

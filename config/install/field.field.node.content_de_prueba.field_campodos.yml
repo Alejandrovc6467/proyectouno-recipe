@@ -1,0 +1,19 @@
+uuid: 6645ee01-2095-4e2f-a11f-fd923068e3bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campodos
+    - node.type.content_de_prueba
+id: node.content_de_prueba.field_campodos
+field_name: field_campodos
+entity_type: node
+bundle: content_de_prueba
+label: campodos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
