@@ -4,6 +4,7 @@ type: Site
 
 install:
   - node
+  - menu_ui
 
 config:
   import:
